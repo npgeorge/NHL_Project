@@ -16,17 +16,16 @@ column1 = dbc.Col(
         dcc.Markdown(
             """
         
-            ## Your Value Proposition
+            ## NHL Predictive Modeling
 
-            Emphasize how the app will benefit users. Don't emphasize the underlying technology.
+            Use this app to see the probablities of the Boston Bruins winning their next game.
 
-            ✅ RUN is a running app that adapts to your fitness levels and designs personalized workouts to help you improve your running.
+            ✅
 
-            ❌ RUN is the only intelligent running app that uses sophisticated deep neural net machine learning to make your run smarter because we believe in ML driven workouts.
 
             """
         ),
-        dcc.Link(dbc.Button('Your Call To Action', color='primary'), href='/predictions')
+        dcc.Link(dbc.Button('Predict Next Game', color='primary'), href='/predictions')
     ],
     md=4,
 )
