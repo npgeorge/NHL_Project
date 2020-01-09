@@ -37,7 +37,7 @@ column1 = dbc.Col(
             id='goals',
             min=0,
             max=10,
-            step=1,
+            step=.1,
             value=1,
             marks={
                 0: '0',
@@ -60,7 +60,7 @@ column1 = dbc.Col(
             id='shots',
             min=0,
             max=60,
-            step=5,
+            step=.1,
             value=20,
             marks={
                 0: '0',
@@ -77,7 +77,7 @@ column1 = dbc.Col(
             id='hits',
             min=0,
             max=60,
-            step=5,
+            step=.1,
             value=20,
             marks={
                 0: '0',
@@ -94,7 +94,7 @@ column1 = dbc.Col(
             id='pim',
             min=0,
             max=60,
-            step=5,
+            step=.1,
             value=20,
             marks={
                 0: '0',
@@ -111,7 +111,7 @@ column1 = dbc.Col(
             id='powerPlayOpportunities',
             min=0,
             max=10,
-            step=1,
+            step=.1,
             value=3,
             marks={
                 0: '0',
@@ -135,7 +135,7 @@ column1 = dbc.Col(
             id='faceOffWinPercentage',
             min=0,
             max=100,
-            step=5,
+            step=.1,
             value=20,
             marks={
                 0: '0',
@@ -159,8 +159,8 @@ column2 = dbc.Col(
             id='giveaways',
             min=0,
             max=20,
-            step=1,
-            value=20,
+            step=.1,
+            value=8,
             marks={
                 0: '0',
                 5: '5',
@@ -176,7 +176,7 @@ column2 = dbc.Col(
             id='takeaways',
             min=0,
             max=40,
-            step=1,
+            step=.1,
             value=20,
             marks={
                 0: '0',

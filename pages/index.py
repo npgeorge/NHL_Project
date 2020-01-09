@@ -18,10 +18,12 @@ column1 = dbc.Col(
         
             ## NHL Predictive Modeling
 
-            Use this app to see the probablities of the Boston Bruins winning their next game.
+            Use this app to see the probability of the Boston Bruins winning their next game.
 
-            ✅
+            Check out the Case Study to see behind the scenes prediction of the 2011 Stanley Cup Finals, 
+            and learn how to predict the probability that they'll win their next game.
 
+            Head over to the Process & Insights page to check out the machine learning algorithm.
 
             """
         ),
@@ -30,13 +32,9 @@ column1 = dbc.Col(
     md=4,
 )
 
-gapminder = px.data.gapminder()
-fig = px.scatter(gapminder.query("year==2007"), x="gdpPercap", y="lifeExp", size="pop", color="continent",
-           hover_name="country", log_x=True, size_max=60)
-
 column2 = dbc.Col(
     [
-        dcc.Graph(figure=fig),
+        html.Img(src='assets/tuuk.jpg', className='img-fluid'),
     ]
 )
 
