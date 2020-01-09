@@ -14,9 +14,9 @@ navbar = dbc.NavbarSimple(
     brand='NHL Data Project',
     brand_href='/', 
     children=[
-        dbc.NavItem(dcc.Link('Predictions', href='/predictions', className='nav-link')), 
-        dbc.NavItem(dcc.Link('Insights', href='/insights', className='nav-link')), 
-        dbc.NavItem(dcc.Link('Process', href='/process', className='nav-link')), 
+        dbc.NavItem(dcc.Link('Predictions', href='/predictions', className='nav-link')),
+        dbc.NavItem(dcc.Link('Process & Insights', href='/process', className='nav-link')), 
+        dbc.NavItem(dcc.Link('Case Study', href='/insights', className='nav-link')),  
     ],
     sticky='top',
     color='dark', 
