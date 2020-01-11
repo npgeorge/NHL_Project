@@ -25,15 +25,26 @@ column1 = dbc.Col(
 
             Head over to the Process & Insights page to check out the machine learning algorithm.
 
+            _____
             """
         ),
+
         dcc.Link(dbc.Button('Predict Next Game', color='primary'), href='/predictions')
+
+        dcc.Markdown(
+            """
+            _____
+            """
+        ),
     ],
     md=4,
 )
 
 column2 = dbc.Col(
     [
+        """
+         
+        """
         html.Img(src='assets/tuuk.jpg', className='img-fluid'),
     ]
 )
