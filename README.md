@@ -1,5 +1,4 @@
-# NHL Data Project Heroku/Dash App
-## [NHL Machine Learning App Link](https://nhl-machine-learning.herokuapp.com/)
+# [NHL Data Project Heroku/Dash App Link](https://nhl-machine-learning.herokuapp.com/)
 
 #### NHL PREDICTIVE MODELING
 
